@@ -2,6 +2,9 @@
 
 Welcome to my portfolio repository! This space showcases my work across various projects, from research papers to software development, machine learning experiments, and personal projects.
 
+- **Online Porfolio**
+- [link placeholder](#)
+
 ## About Me
 
 I'm a passionate researcher and developer with a keen interest in machine learning, causal reasoning, and natural language processing. My projects explore the intersection of advanced AI models and real-world data, focusing on improving commonsense understanding and reasoning abilities.
