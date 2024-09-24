@@ -37,4 +37,4 @@ Feel free to reach out to me for collaborations or inquiries!
 
 - Email: [ariffikrie99@gmail.com](mailto:ariffikrie99@gmail.com)
 - LinkedIn: [link placeholder](#)
-- GitHub: [link placeholder](#)
+- GitHub: [https://github.com/ariffikrie](#)
