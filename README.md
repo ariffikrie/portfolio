@@ -39,5 +39,5 @@ I'm actively involved in research exploring how fine-tuning models on multiple d
 Feel free to reach out to me for collaborations or inquiries!
 
 - Email: [ariffikrie99@gmail.com](mailto:ariffikrie99@gmail.com)
-- LinkedIn: [link placeholder](#)
+- LinkedIn: [linkedin.com/in/mohammad-arif-fikrie-9661982b8](#)
 - GitHub: [https://github.com/ariffikrie](#)
