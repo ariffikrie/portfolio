@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --body-color: #1A1A19;
     --sidebar-color: #F5EFE7;
     --primary-color: #859F3D;
@@ -18,7 +18,7 @@
     --console-text: #FAF0E6;
     --console-block: #3C3D37;
     --button-progress: #1F4529;
-    --shadow : #343131;
+    --shadow: #343131;
     --button: #AF1740;
 
     --tran-01: all 0.1s ease;
@@ -29,7 +29,7 @@
     --tran-06: all 0.6s ease-out;
 }
 
-section{
+section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -41,7 +41,7 @@ section{
     text-transform: uppercase;
 }
 
-section span{
+section span {
     opacity: 40%;
     position: absolute;
     top: 20px;
@@ -49,11 +49,11 @@ section span{
     font-size: 2em;
 }
 
-section:nth-child(even){
+section:nth-child(even) {
     background: var(--console-block);
 }
 
-header{
+header {
     position: fixed;
     bottom: 50px;
     left: 50%;
@@ -69,12 +69,12 @@ header{
     filter: drop-shadow(0 15px 35px var(--shadow));
 }
 
-header nav{
+header nav {
     display: flex;
     width: 350px;
 }
 
-header nav a{
+header nav a {
     position: relative;
     list-style: none;
     width: 70px;
@@ -89,7 +89,7 @@ header nav a{
     font-weight: 400;
 }
 
-header nav a .icon{
+header nav a .icon {
     position: relative;
     display: block;
     line-height: 65px;
@@ -99,12 +99,12 @@ header nav a .icon{
     color: var(--primary-color-light);
 }
 
-header nav a.active .icon{
+header nav a.active .icon {
     transform: translateY(-32px);
     color: var(--clr);
 }
 
-header nav a .text{
+header nav a .text {
     position: absolute;
     color: var(--console-text);
     padding: 2px 7px;
@@ -117,29 +117,29 @@ header nav a .text{
     opacity: 0;
 }
 
-header nav a.active .text{
+header nav a.active .text {
     transform: translateY(-4px);
     background: var(--clr);
     opacity: 1;
 }
 
-header nav a:nth-child(1).active ~ .indicator{
+header nav a:nth-child(1).active~.indicator {
     transform: translateX(calc(85px * 0));
 }
 
-header nav a:nth-child(2).active ~ .indicator{
+header nav a:nth-child(2).active~.indicator {
     transform: translateX(calc(88px * 1));
 }
 
-header nav a:nth-child(3).active ~ .indicator{
+header nav a:nth-child(3).active~.indicator {
     transform: translateX(calc(88px * 2));
 }
 
-header nav a:nth-child(4).active ~ .indicator{
+header nav a:nth-child(4).active~.indicator {
     transform: translateX(calc(88px * 3));
 }
 
-.indicator{
+.indicator {
     position: absolute;
     top: -35px;
     width: 85px;
@@ -150,7 +150,7 @@ header nav a:nth-child(4).active ~ .indicator{
     z-index: 1;
 }
 
-.indicator::before{
+.indicator::before {
     content: '';
     position: absolute;
     top: 7px;
@@ -162,7 +162,7 @@ header nav a:nth-child(4).active ~ .indicator{
     box-shadow: 15px 18px var(--sidebar-color);
 }
 
-.indicator::after{
+.indicator::after {
     content: '';
     position: absolute;
     top: 7px;
