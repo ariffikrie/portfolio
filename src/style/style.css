@@ -36,15 +36,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6em;
-    font-weight: 800;
     color: var(--text-color);
     background: var(--body-color);
     text-transform: uppercase;
 }
 
 section span{
-    opacity: 10%;
+    opacity: 40%;
+    position: absolute;
+    top: 20px;
+    font-weight: 600;
+    font-size: 2em;
 }
 
 section:nth-child(even){
@@ -170,4 +172,80 @@ header nav a:nth-child(4).active ~ .indicator{
     border-radius: 50%;
     background: transparent;
     box-shadow: -15px 18px var(--sidebar-color);
+}
+
+
+/* home */
+
+.home-container {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    background: red;
+    /* background: var(--console-block); */
+    opacity: 50%;
+    border-radius: 30px;
+    /* display: none; */
+}
+
+/* education */
+
+.edu-container {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    background: green;
+    /* background: var(--body-color); */
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+/* project */
+
+.project-container {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    background: greenyellow;
+    /* background: var(--console-block); */
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+.project-container .project-item {
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: red;
+    z-index: 30;
+}
+
+.project-container .project-item .simulate {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    width: 190px;
+    height: 75px;
+    border-radius: 35px;
+    align-self: center;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration-style: none;
+}
+
+/* contacts */
+
+.contact-container {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    background: blue;
+    /* background: var(--body-color); */
+    opacity: 50%;
+    border-radius: 30px;
 }
