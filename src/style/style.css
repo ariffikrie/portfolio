@@ -187,6 +187,33 @@ header nav a:nth-child(4).active~.indicator {
     /* display: none; */
 }
 
+.home-container img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border: 2px solid var(--button);
+    border-radius: 50%;
+}
+
+.home-container .intro-text h2 {
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+.home-container .intro-text p {
+    position: absolute;
+    right: 330px;
+    top: 320px;
+    font-size: 40px;
+}
+
+
 /* education */
 
 .timeline {
@@ -345,6 +372,10 @@ header nav a:nth-child(4).active~.indicator {
     margin: 5px;
     cursor: pointer;
     background: var(--button-progress);
+}
+
+.project-container .project-item button:hover {
+    background: var(--primary-color-light);
 }
 
 .project-container .project-item button:active {
