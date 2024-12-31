@@ -203,7 +203,7 @@ header nav a:nth-child(4).active~.indicator {
 
 .project-container {
     position: absolute;
-    width: 1200px;
+    width: 1250px;
     height: 600px;
     list-style: none;
     /* background: greenyellow; */
@@ -219,6 +219,7 @@ header nav a:nth-child(4).active~.indicator {
     display: flex;
     margin: 10px;
     border-radius: 20px;
+    background: none;
 }
 
 .project-container .project-item {
@@ -228,6 +229,7 @@ header nav a:nth-child(4).active~.indicator {
     height: 100px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 40px;
     border-radius: 20px;
     background: var(--primary-color);
     box-shadow: -4px -4px var(--shadow);
@@ -252,6 +254,7 @@ header nav a:nth-child(4).active~.indicator {
     align-items: center;
     justify-items: center;
     margin: 20px;
+    padding: 5px;
     font-size: 15px;
     /* font-family: 'Times New Roman', Times, serif; */
     color: var(--text-color);
@@ -266,8 +269,8 @@ header nav a:nth-child(4).active~.indicator {
     position: absolute;
     display: flex;
     justify-content: center;
-    right: 20px;
-    width: 190px;
+    right: 10px;
+    width: 170px;
     height: 75px;
     border-radius: 35px;
     align-self: center;
